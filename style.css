@@ -25,6 +25,11 @@ body{
     padding: 4em 2em 4em;
 }
 
+#imt{
+    display: flex;
+    flex-direction: row;
+}
+
 h1 {
     color:azure;
     font-family: 'Libre Baskerville', serif;
@@ -41,7 +46,7 @@ h1 {
 }
 
 h2 {
-    color: #c0d7fa;
+    color: azure;
     margin-top: 1.3em;
 }
 
@@ -56,7 +61,7 @@ img {
 }
 
 a {
-    
+    color:#c0d7fa;
     background-color: transparent;
 }
 
@@ -93,7 +98,9 @@ button{
     opacity: 75%;
     color:azure;
 }
-
+.hobby{
+    padding: 2em;
+}
 #contact{
     background-color: #293a57;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
